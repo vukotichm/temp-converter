@@ -30,7 +30,7 @@ func main() {
 		fLabel.ParseMarkdown(fmt.Sprintf("# %.1f°F", fahrenheit))
 	}
 
-	resetButton := widget.NewButton("Reset to 0°C", func() {
+	resetButton := widget.NewButton("Reset", func() {
 		slider.SetValue(0)
 	})
 
